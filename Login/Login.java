@@ -13,7 +13,7 @@ import javax.swing.JTextField;
 
 public class Login extends JFrame {
 	public Login() {
-		
+		//프레임 관련 함수들은 제일 나중에 설정
 		JPanel panel=new JPanel();
 		this.add(panel);
 		JLabel label=new JLabel("ID : ");
